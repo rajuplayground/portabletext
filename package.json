@@ -1,0 +1,21 @@
+{
+  "name": "play",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@portabletext/to-html": "^2.0.0",
+    "@portabletext/types": "^2.0.5",
+    "htm": "^3.1.1",
+    "vhtml": "^2.2.0"
+  }
+}
